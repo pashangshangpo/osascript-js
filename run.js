@@ -8,7 +8,7 @@ const fs = require('fs')
 const { join } = require('path')
 const { exec } = require('child_process')
 
-module.exports = (fn, option = {}) => { 
+module.exports = (fn, option = {}) => {
 	return new Promise(resolve => {
 		const tempJsPath = join(__dirname, `./osascript-${Math.random()}.js`)
 

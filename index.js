@@ -5,3 +5,4 @@
  */
 
 exports.run = require('./run')
+exports.displayNotification = require('./lib/displayNotification')
