@@ -6,3 +6,4 @@
 
 exports.run = require('./run')
 exports.displayNotification = require('./lib/displayNotification')
+exports.displayAlert = require('./lib/displayAlert')
